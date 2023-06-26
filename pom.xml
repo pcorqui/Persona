@@ -13,6 +13,13 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <distributionManagement>
+        <repository>
+            <id>nexusSnapshots</id>
+            <name>Snap</name>
+            <url>http://localhost:8081/repository/maven-snapshots</url>
+        </repository>
+    </distributionManagement>
 
     <profiles>
         <profile>
